@@ -15,6 +15,7 @@ class UpcastingDowncasting{
     {
         A a1 = new B(); //UPCASTING:parent <--child    //implicit conversion 
         a1.show1();
+        //a1.show2();not possible
         B b1 = (B)a1; //DOWNCASTING: child <-- parent
         b1.show2();
         b1.show1();
